@@ -32,18 +32,12 @@
 		
 <!-- Layouts -->
 
-    <!-- Tags Cloud -->
-    
-<link rel="stylesheet" href="/css/item.css" />
-<style >
-    .row a{
-        border-bottom: none;
-    }
-    .special{
-        padding: 0;
-        padding: 2rem;
-    }
-</style>
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
     <div id="wrapper" class="fade-in">
@@ -114,30 +108,53 @@
 		            
 			</ul>
 </nav>
-                <div id="main">
-            <!-- Main first s-->
-            <article id="me" class="panel">
-                <header>
-                    <h1>Wason</h1>
-                    <p>Welcome to Wason RMT · TCM TUINA</p>
-                </header>
-                <a href="" class="jumplink pic">
-                    <span class="arrow icon fa-chevron-right"><span></span></span>
-                    <img src="/images/me.jpg" alt="" />
-                </a>
-            </article>
-            <!-- Main first e-->
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/img/tuina.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >What Is Tuina</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>TUINA, pronounced tway-nah (pinyin: tuīná 推拿) is an integral part of Traditional Chinese Medicine (TCM) and a form of Chinese manipulative therapy often used in conjunction with acupuncture, moxibustion, fire cupping, Chinese herbalism, and qigong. Tuina is a hands-on body treatment in an effort to bring Yin-Yang (阴阳) of TCM into balance. The practitioner may brush, knead, roll/press, and rub the areas along the meridians to attempt to open the body’s defensive Qi (卫气) and get the energy moving in the meridians and the muscles. The practitioner can then use range of motion, traction, and massage, with the stimulation of acupressure. These techniques are effective in the treatment of both acute and chronic musculoskeletal conditions, as well as many non-musculoskeletal (digestive, neurological, etc.) conditions.</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://wasonwu.github.io/2018/01/05/What-Is-Tuina/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://wasonwu.github.io/2018/01/05/What-Is-Tuina/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
         </div>
-
-        <section class="special">
-                            <div class="row" style="border-bottom: none;">
-
-        <a href="/tags/Hello/" style="font-size: 17px;">Hello</a> <a href="/tags/Service/" style="font-size: 16px;">Service</a> <a href="/tags/Tuina/" style="font-size: 16px;">Tuina</a>
-
-                            </div>
-                    
-        </section>
-
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -150,6 +167,7 @@
         </div>
     </div>
 </body>
+
 
 
  	
