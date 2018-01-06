@@ -32,18 +32,12 @@
 		
 <!-- Layouts -->
 
-    <!-- Tags Cloud -->
-    
-<link rel="stylesheet" href="/css/item.css" />
-<style >
-    .row a{
-        border-bottom: none;
-    }
-    .special{
-        padding: 0;
-        padding: 2rem;
-    }
-</style>
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
     <div id="wrapper" class="fade-in">
@@ -114,30 +108,53 @@
 		            
 			</ul>
 </nav>
-                <div id="main">
-            <!-- Main first s-->
-            <article id="me" class="panel">
-                <header>
-                    <h1>Wason</h1>
-                    <p>Welcome to Wason RMT · TCM TUINA</p>
-                </header>
-                <a href="" class="jumplink pic">
-                    <span class="arrow icon fa-chevron-right"><span></span></span>
-                    <img src="/images/me.jpg" alt="" />
-                </a>
-            </article>
-            <!-- Main first e-->
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/img/tcm.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Combination of TCM Tuina &amp; RMT Massage</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>The Combination of TCM (Traditional Chinese Medicine) Tuina (tway-nah) and RMT massage will contribute to Pain Relieving (缓解疼痛), Stress Releasing (缓解压力), and General Relaxation (全身放松). It works especially well with “IT Syndrome” (stiff neck / shoulders, frozen shoulders, low-back pain, carpal tunnel syndrome, etc). It is also very effective for other musculoskeletal pain, sports injuries, headaches, joint discomfort, sciatica, insomnia, tennis / golfer elbow, plantar fasciitis, foot pains, stomach discomfort, and many other tendon / ligament conditions …</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://wasonwu.github.io/2018/01/06/Combination-of-TCM-Tuina-and-RMT-Massage/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://wasonwu.github.io/2018/01/06/Combination-of-TCM-Tuina-and-RMT-Massage/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
         </div>
-
-        <section class="special">
-                            <div class="row" style="border-bottom: none;">
-
-        <a href="/tags/Hello/" style="font-size: 17px;">Hello</a> <a href="/tags/RMT/" style="font-size: 16px;">RMT</a> <a href="/tags/Service/" style="font-size: 16px;">Service</a> <a href="/tags/TCM/" style="font-size: 16px;">TCM</a> <a href="/tags/Tuina/" style="font-size: 16.5px;">Tuina</a>
-
-                            </div>
-                    
-        </section>
-
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -150,6 +167,7 @@
         </div>
     </div>
 </body>
+
 
 
  	
